@@ -162,3 +162,24 @@ int main()  {
 
     return 0;
 }
+
+/*
+Output :
+Enter the capacities of the two jugs : 4 3
+Enter the target amount : 2
+Number of moves to reach the target : 4
+One path to the target is as follows :
+State : (0, 0)
+Action : Fill the second jug
+State : (0, 3)
+Action : Pour from second jug into first jug
+State : (3, 0)
+Action : Fill the second jug
+State : (3, 3)
+Action : Pour from second jug into first jug
+State : (4, 2)
+#
+Process returned 0 (0x0)
+execution time : 3.155 s
+Press any key to continue.
+*/
